@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LINK.css">
+    <style>
+        /* Type Selector*/ 
+        h3 {
+            color: green;
+            background-color: yellow;
+        }
+
+        /* Attribute Selector */
+        a[href="https://ums.lpu.in/lpuums/LoginNew.aspx"] {
+            color: brown;
+            background-color: aqua;
+        }
+
+        /* Id Selector*/ 
+        #head1:hover {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: purple;
+        }
+
+        #head2 {
+            color: grey;
+            background-color: aquamarine;
+        }
+
+        /* Class Selector */
+        .c1 {
+            color: yellow;
+        }
+
+        /* Combinator Selector*/ 
+        .d1 p {
+            background-color: blue;
+        }
+
+         /*Group Selector*/
+        h4, h5, h6 {
+            color: green;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1 id="head1">Type Selector</h1>
+    <h2 id="head2">Attribute Selector</h2>
+    <h3>Id Selector</h3>
+    <h4>Class Selector</h4>
+    <h5>Universal Selector</h5>
+    <h6>Pseudo Selector</h6>
+    <div class="d1">
+        <p>This is a new para</p>
+    </div>
+    <p>This is para</p>
+    <a href="https://ums.lpu.in/lpuums/LoginNew.aspx">Lpu Ums</a>
+</body>
+</html>
